@@ -1,0 +1,34 @@
+---
+title: "Untitled"
+author: "Edgar Andres Herrera"
+date: "7 de octubre de 2017"
+output: slidy_presentation
+---
+
+## Pasos construcción presentación
+
+1. Construcción de una tabla en lenguaje de marcadores
+
+|  ID  | Ubicación   | Level  | Zone |
+|------|-------------|--------|------|
+|AB01  | Bogotá D.C  | Big    | 1    |   
+|AB02  | Antioquia   | Medium | 2    |
+|AB03  | Buenos Aires| Big    | 1    |
+|AB04  | Córdoba     | Medium | 2    |
+|AB05  | Rosario     | Small  | 3    |
+
+
+
+## Slide 2
+```{r, echo=TRUE}
+x<-rnorm(100)
+hist(x)
+
+```
+
+## Slide 3
+
+```{r, echo=TRUE}
+library(ggplot2)
+qplot(speed, dist, data=cars) + geom_smooth()
+```
